@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="task2.css" />
+  </head>
+  <body>
+    <form action="" method="POST">
+      <div class="zag">
+        <h1>Форма оформления заказа</h1>
+      </div>
+      <div>
+        <div>
+          <label for="Full Name"><span>ФИО:</span></label
+          ><br />
+          <input required type="text" id="Full Name" />
+        </div>
+        <div>
+          <label for="email"><span>E-mail:</span></label
+          ><br />
+          <input required type="email" id="email" />
+        </div>
+        <div>
+          <label for="tel"><span>Телефон:</span></label
+          ><br />
+          <input required type="tel" id="tel" />
+        </div>
+        <div>
+          <label for="tovar"><span>Наименование товара:</span></label
+          ><br />
+          <select name="tovar" id="tovar">
+            <option value="Товар №1">Товар №1</option>
+            <option value="Товар №2">Товар №2</option>
+            <option value="Товар №3">Товар №3</option>
+          </select>
+        </div>
+        <div>
+          <label for="number"><span>Количество:</span></label
+          ><br />
+          <input required type="text" id="number" />
+        </div>
+        <div>
+          <label for="data"><span>Дата доставки:</span></label
+          ><br />
+          <input type="date" id="data" />
+        </div>
+      </div>
+      <div class="finish">
+        <div class="e">
+          <button name="submit">Отправить</button>
+          <button type="reset">Очистить</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

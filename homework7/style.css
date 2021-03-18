@@ -1,0 +1,234 @@
+.zal {
+  background-image: url(picture/unnamed.png);
+  height: 1000px;
+  width: 1500px;
+  background-size: contain;
+  position: relative;
+}
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 23px;
+  position: absolute;
+  top: 400px;
+  left: 170px;
+  z-index: 1;
+  animation-name: ballAnimation;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basketball {
+  width: 500px;
+  position: absolute;
+  right: 0px;
+}
+.push {
+  width: 200px;
+  position: absolute;
+  top: 400px;
+  box-shadow: 0 10px 7px 4px rgb(87, 85, 85);
+}
+@keyframes ballAnimation {
+  from {
+    box-shadow: 0 75px 5px 5px rgb(105, 103, 103);
+  }
+  5% {
+    transform: translate(20px, -20px);
+    box-shadow: 0 95px 5px 5px rgb(105, 103, 103);
+  }
+  7% {
+    transform: translate(30px, -30px);
+    box-shadow: 0 105px 6px 5px rgb(105, 103, 103);
+  }
+  9% {
+    transform: translate(40px, -40px);
+    box-shadow: 0 115px 7px 5px rgb(105, 103, 103);
+  }
+  11% {
+    transform: translate(50px, -50px);
+    box-shadow: 0 125px 8px 5px rgb(105, 103, 103);
+  }
+  13% {
+    transform: translate(70px, -70px);
+    box-shadow: 0 145px 9px 5px rgb(105, 103, 103);
+  }
+  15% {
+    transform: translate(90px, -90px);
+    box-shadow: 0 165px 10px 5px rgb(105, 103, 103);
+  }
+  17% {
+    transform: translate(110px, -110px);
+    box-shadow: 0 185px 11px 5px rgb(105, 103, 103);
+  }
+  19% {
+    transform: translate(150px, -150px);
+    box-shadow: 0 225px 12px 5px rgb(105, 103, 103);
+  }
+  21% {
+    transform: translate(200px, -170px);
+    box-shadow: 0 245px 13px 5px rgb(105, 103, 103);
+  }
+  23% {
+    transform: translate(250px, -180px);
+    box-shadow: 0 255px 14px 5px rgb(105, 103, 103);
+  }
+  25% {
+    transform: translate(270px, -190px);
+    box-shadow: 0 265px 15px 5px rgb(105, 103, 103);
+  }
+  27% {
+    transform: translate(300px, -200px);
+    box-shadow: 0 275px 16px 5px rgb(105, 103, 103);
+  }
+  29% {
+    transform: translate(350px, -210px);
+    box-shadow: 0 285px 17px 5px rgb(105, 103, 103);
+  }
+  31% {
+    transform: translate(370px, -220px);
+    box-shadow: 0 295px 18px 5px rgb(105, 103, 103);
+  }
+  33% {
+    transform: translate(400px, -225px);
+    box-shadow: 0 300px 19px 5px rgb(105, 103, 103);
+  }
+  35% {
+    transform: translate(420px, -230px);
+    box-shadow: 0 305px 20px 5px rgb(105, 103, 103);
+  }
+  37% {
+    transform: translate(450px, -230px);
+    box-shadow: 0 305px 20px 5px rgb(105, 103, 103);
+  }
+  39% {
+    transform: translate(500px, -235px);
+    box-shadow: 0 310px 20px 5px rgb(105, 103, 103);
+  }
+  41% {
+    transform: translate(550px, -230px);
+    box-shadow: 0 305px 20px 5px rgb(105, 103, 103);
+  }
+  43% {
+    transform: translate(570px, -235px);
+    box-shadow: 0 310px 20px 5px rgb(105, 103, 103);
+  }
+  45% {
+    transform: translate(600px, -240px);
+    box-shadow: 0 315px 20px 5px rgb(105, 103, 103);
+  }
+  47% {
+    transform: translate(650px, -250px);
+    box-shadow: 0 325px 20px 5px rgb(105, 103, 103);
+  }
+  49% {
+    transform: translate(685px, -260px);
+    box-shadow: 0 335px 20px 5px rgb(105, 103, 103);
+  }
+  51% {
+    transform: translate(700px, -275px);
+    box-shadow: 0 350px 20px 5px rgb(105, 103, 103);
+  }
+  52% {
+    transform: translate(750px, -285px);
+    box-shadow: 0 360px 20px 5px rgb(105, 103, 103);
+  }
+  55% {
+    transform: translate(800px, -285px);
+    box-shadow: 0 360px 20px 5px rgb(105, 103, 103);
+  }
+  57% {
+    transform: translate(850px, -290px);
+    box-shadow: 0 365px 20px 5px rgb(105, 103, 103);
+  }
+  59% {
+    transform: translate(900px, -290px);
+    box-shadow: 0 365px 20px 5px rgb(105, 103, 103);
+  }
+  60% {
+    transform: translate(950px, -290px);
+    box-shadow: 0 365px 20px 5px rgb(105, 103, 103);
+  }
+
+  61% {
+    transform: translate(850px, -220px);
+    box-shadow: 0 295px 19px 5px rgb(105, 103, 103);
+  }
+  63% {
+    transform: translate(850px, -190px);
+    box-shadow: 0 265px 18px 5px rgb(105, 103, 103);
+  }
+  65% {
+    transform: translate(850px, -120px);
+    box-shadow: 0 195px 17px 5px rgb(105, 103, 103);
+  }
+  67% {
+    transform: translate(850px, -70px);
+    box-shadow: 0 145px 16px 5px rgb(105, 103, 103);
+  }
+  69% {
+    transform: translate(850px, -20px);
+    box-shadow: 0 95px 15px 5px rgb(105, 103, 103);
+  }
+  71% {
+    transform: translate(850px, 20px);
+    box-shadow: 0 55px 10px 5px rgb(105, 103, 103);
+  }
+  73% {
+    transform: translate(850px, 70px);
+    box-shadow: 0 5px 5px 5px rgb(105, 103, 103);
+  }
+  75% {
+    transform: translate(800px, 20px);
+    box-shadow: 0 55px 10px 5px rgb(105, 103, 103);
+  }
+  77% {
+    transform: translate(750px, 70px);
+    box-shadow: 0 5px 5px 5px rgb(105, 103, 103);
+  }
+  79% {
+    transform: translate(700px, 20px);
+    box-shadow: 0 55px 10px 5px rgb(105, 103, 103);
+  }
+  81% {
+    transform: translate(650px, 70px);
+    box-shadow: 0 5px 5px 5px rgb(105, 103, 103);
+  }
+  83% {
+    transform: translate(600px, 20px);
+    box-shadow: 0 55px 10px 5px rgb(105, 103, 103);
+  }
+  85% {
+    transform: translate(550px, 70px);
+    box-shadow: 0 5px 5px 5px rgb(105, 103, 103);
+  }
+  87% {
+    transform: translate(500px, 25px);
+    box-shadow: 0 50px 8px 5px rgb(105, 103, 103);
+  }
+  89% {
+    transform: translate(450px, 70px);
+    box-shadow: 0 5px 5px 5px rgb(105, 103, 103);
+  }
+  91% {
+    transform: translate(400px, 25px);
+    box-shadow: 0 50px 8px 5px rgb(105, 103, 103);
+  }
+  93% {
+    transform: translate(350px, 70px);
+    box-shadow: 0 5px 5px 5px rgb(105, 103, 103);
+  }
+  95% {
+    transform: translate(300px, 30px);
+    box-shadow: 0px 45px 7px rgb(105, 103, 103);
+  }
+  97% {
+    transform: translate(250px, 70px);
+    box-shadow: 0 5px 5px 5px rgb(105, 103, 103);
+  }
+  100% {
+    transform: translate(200px, 35px);
+    box-shadow: 0 45px 7px 5px rgb(105, 103, 103);
+  }
+}

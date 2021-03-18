@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css" />
+  </head>
+  <body>
+    <form action="" method="POST">
+      <div class="wrap">
+        <div class="zag">
+          <h3>Sing Up</h3>
+        </div>
+        <div class="content">
+          <div>
+            <label for="First Name"><span>First Name</span></label>
+            <input
+              minlength="3"
+              maxlength="12"
+              required
+              type="text"
+              id="First Name"
+              placeholder="Enter First Name"
+            />
+          </div>
+          <div>
+            <label for="Last Name"><span>Last Name</span></label>
+            <input
+              minlength="3"
+              maxlength="12"
+              required
+              type="text"
+              id="Last Name"
+              placeholder="Enter Last Name"
+            />
+          </div>
+          <div>
+            <label for="Screen Name"><span>Screen Name</span></label>
+            <input
+              required
+              minlength="6"
+              maxlength="12"
+              type="text"
+              id="Screen Name"
+              placeholder="Enter Screen Name"
+            />
+          </div>
+          <div class="birth">
+            <span>Date of Birth</span>
+            <select name="month" id="month">
+              <option value="May">May</option>
+              <option value="April">April</option>
+              <option value="March">March</option>
+            </select>
+            <select name="day" id="day">
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+            </select>
+
+            <select name="year" id="year">
+              <option value="1985">1985</option>
+              <option value="1984">1984</option>
+              <option value="1983">1983</option>
+            </select>
+          </div>
+          <div class="gen">
+            <label for="Gender"><span>Genger</span></label>
+            <input type="radio" name="Gender" id="male" /><label for="male"
+              ><span>Male</span></label
+            >
+            <input type="radio" name="Gender" id="female" /><label for="female"
+              ><span>Female</span></label
+            >
+          </div>
+          <div>
+            <label for="country"><span>Country</span></label>
+            <select name="country" id="country">
+              <option value="usa">USA</option>
+              <option value="uk">UK</option>
+              <option value="fr">France</option>
+            </select>
+          </div>
+          <div>
+            <label for="E-mail"><span>E-mail</span></label>
+            <input
+              required
+              type="email"
+              id="E-mail"
+              placeholder="Enter E-mail"
+            />
+          </div>
+          <div>
+            <label for="Phone"><span>Phone</span></label>
+            <input
+              minlength="8"
+              maxlength="12"
+              type="tel"
+              id="Phone"
+              placeholder="Enter phone"
+            />
+          </div>
+          <div>
+            <label for="Password"><span>Password</span></label>
+            <input required type="password" id="Password" />
+          </div>
+          <div>
+            <label for="Confirm Password"><span>Confirm Password</span></label>
+            <input
+              required
+              minlength="8"
+              maxlength="20"
+              type="password"
+              id="Confirm Password"
+            />
+          </div>
+          <div class="check">
+            <input type="checkbox" id="check" value="yes" />
+            <label for="check"><span>I agree to the Terms of Use</span></label>
+          </div>
+        </div>
+       <div class="finish">
+          <button name="submit">Submit</button>
+          <button type="reset">Cancel</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

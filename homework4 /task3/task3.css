@@ -1,0 +1,65 @@
+*{
+  font-family : Verdana, Helvetica , sans-serif;
+  color: rgb(81, 83, 84);
+}
+#osn {
+  width: 600px;
+  height: 650px;
+  border-right: 3px solid rgb(248, 248, 248);
+}
+#content {
+  margin-left: 30px;
+  width: 545px;
+}
+h2 {
+  border-bottom: 2px solid rgb(248, 248, 248);
+  padding-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+input {
+  border: 1px solid rgb(148, 148, 151);
+  width: 410px;
+  border-radius: 4px;
+  height: 35px;
+}
+.age {
+  margin-top: 25px;
+  text-align: left;
+}
+.pun > input,
+.acc > input,
+.otv > input {
+  width: 15px;
+  height: 20px;
+}
+
+.otv > label,
+.pun > label,
+.acc > label {
+  display: inline;
+}
+
+input[id="check61"] {
+  width: 190px;
+  height: 35px;
+}
+button {
+  width: 135px;
+  height: 45px;
+  background-color: rgb(37, 131, 214);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  font-size: 130%;
+  border: 1px solid rgb(255, 255, 255);
+}
+#finish {
+  margin-top: 15px;
+}
+p:last-of-type:after,
+form > label > span:last-of-type:after {
+  content: " *";
+  color: #c00000;
+}
